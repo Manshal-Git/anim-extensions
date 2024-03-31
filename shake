@@ -1,0 +1,8 @@
+fun View.shake() {
+    startAnimation(
+        AnimationUtils.loadAnimation(
+            context,
+            R.anim.shake_animation
+        )
+    )
+}
